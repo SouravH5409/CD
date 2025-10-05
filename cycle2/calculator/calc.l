@@ -13,4 +13,7 @@
 int yywrap() {
     return 1;
 }
-
+/* flex calc.l
+antzuhl@Sourav:~/CDLAB/cycle2$ yacc -d calc.y
+antzuhl@Sourav:~/CDLAB/cycle2$ gcc y.tab.c lex.yy.c
+antzuhl@Sourav:~/CDLAB/cycle2$ ./a.out */
