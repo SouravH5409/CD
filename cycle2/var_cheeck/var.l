@@ -11,3 +11,7 @@
 int yywrap(void) {
     return 1;
 }
+/*  flex var.l
+ yacc -d var.y
+gcc y.tab.c lex.yy.c
+./a.out*/
