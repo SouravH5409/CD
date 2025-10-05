@@ -45,3 +45,7 @@ int yywrap() {
     return 1;
 }
 
+/* flex substring.l
+   gcc lex.yy.c
+   ./a.out */
+
